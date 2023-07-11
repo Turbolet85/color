@@ -1,0 +1,29 @@
+.container {
+	display: grid;
+	row-gap: 1.5rem;
+	height: 160px;
+	padding: 2rem;
+}
+
+.colorForm {
+	display: flex;
+}
+
+input[type='text'] {
+	max-width: 200px;
+	padding: 0.5rem 1rem;
+	font-size: 1.25rem;
+	border-color: transparent;
+}
+
+input[type='color'] {
+	height: 100%;
+	background-color: var(--white);
+	border-color: var(--white);
+}
+
+.container .btn {
+	letter-spacing: 3px;
+	border-radius: 0 var(--borderRadius) var(--borderRadius) 0;
+	transition-duration: 0s;
+}

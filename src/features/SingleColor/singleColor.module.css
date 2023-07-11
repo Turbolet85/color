@@ -1,0 +1,29 @@
+.color {
+	cursor: pointer;
+	padding: 1rem 2rem;
+	font-size: 1rem;
+}
+
+.color p {
+	margin-bottom: 0.25rem;
+	line-height: 1.5;
+}
+
+.colorLight .colorValue {
+	color: var(--white);
+}
+
+.colorLight .percentValue {
+	color: var(--white);
+}
+
+.colorLight {
+	cursor: pointer;
+	padding: 1rem 2rem;
+	font-size: 1rem;
+}
+
+.colorLight p {
+	margin-bottom: 0.25rem;
+	line-height: 1.5;
+}

@@ -1,0 +1,6 @@
+.colors {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(223px, 1fr));
+	grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
+	min-height: 60vh;
+}

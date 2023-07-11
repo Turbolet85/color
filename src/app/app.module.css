@@ -1,0 +1,19 @@
+
+
+
+
+@media screen and (width >= 768px) {
+	.container {
+		grid-template-columns: auto 1fr;
+		column-gap: 2rem;
+		align-items: center;
+	}
+
+	.colorForm {
+		height: 40px;
+	}
+}
+
+
+
+
